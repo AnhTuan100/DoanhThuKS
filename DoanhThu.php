@@ -1,7 +1,7 @@
 <?php
 session_start();
-include 'ketnoi.php';
 include 'kiemtra.php';
+include 'ketnoi.php';
 include 'xulySQL.php';
 ?>
 
