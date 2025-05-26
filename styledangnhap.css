@@ -1,0 +1,115 @@
+/* Reset cơ bản */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f6fa;
+  font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background: #fff;
+  padding: 32px 28px 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+  width: 100%;
+  max-width: 370px;
+}
+
+.form-container h2 {
+  margin-bottom: 18px;
+  color: #273c75;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  color: #636e72;
+  font-size: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dfe6e9;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #0097e6;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 11px 0;
+  background: #0097e6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background: #4078c0;
+}
+
+.switch-link {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  color: #636e72;
+  font-size: 15px;
+}
+
+.switch-link a {
+  color: #0097e6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+/* Thông báo lỗi */
+.error-message {
+  background: #ffebee;
+  color: #c0392b;
+  border: 1px solid #e17055;
+  border-radius: 5px;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .form-container {
+    padding: 18px 8px;
+    max-width: 95vw;
+  }
+}
