@@ -6,7 +6,7 @@
     </div>
     <nav>
       <ul>
-        <li><a href="/bao-cao-dich-vu" class="active">Báo cáo doanh thu</a></li>
+        <li><a href="" class="active">Báo cáo doanh thu</a></li>
         <li><a href="/xuat-bao-cao">Xuất báo cáo</a></li>
       </ul>
     </nav>
